@@ -1,122 +1,63 @@
-# 📊 Agile Project Portfolio Dashboard (Power BI)
+# 📊 Agile Project Portfolio Dashboard
 
 ## Overview
+An executive-level Power BI dashboard for monitoring Agile project portfolios. It provides interactive insights into project health, budget utilization, completion progress, and portfolio performance.
 
-This project demonstrates an executive-level Agile Project Portfolio Dashboard built in Power BI.
-
-The dashboard provides real-time insights into project performance, budget utilization, project health, and completion status, enabling project managers and leadership teams to monitor project portfolios effectively.
-
----
-
-## Dashboard Preview
-
-> Add a screenshot of your dashboard here.
-
-Example:
-
-![Dashboard](Images/Dashboard%20Overview.png)
-
----
-
-## Business Problem
-
-Organizations managing multiple Agile projects often struggle to monitor project progress, budget consumption, delivery timelines, and project risks from a single location.
-
-This dashboard provides a centralized view of project performance for informed decision-making.
-
----
-
-## Dashboard Features
-
+## Features
 - Executive KPI Cards
 - Project Health Monitoring
-- Budget Utilization Analysis
-- Average Project Completion
-- Domain-wise Project Distribution
-- Budget vs Actual Spending
-- Project Health Matrix
-- Interactive Filtering
-- Dynamic Visualizations
+- Budget vs Actual Spend
+- Average Completion Tracking
+- Domain-wise Distribution
+- Interactive Filters & Slicers
+- Dynamic Dashboard Title using DAX
 
----
-
-## KPIs Included
-
+## KPIs
 - Total Projects
-- Projects On Track
+- On Track Projects
 - Projects At Risk
-- Budget Utilization %
 - Average Completion %
+- Budget Utilization %
 - Days Remaining
 
----
+## DAX Measures
+- Total Projects
+- On Track Projects
+- Projects At Risk
+- Average Completion %
+- Budget Utilization %
+- Dashboard Title
 
 ## Tools Used
-
 - Power BI Desktop
 - Power Query
 - DAX
 - Microsoft Excel
 
----
-
 ## Dataset
+Includes Project ID, Project Name, Domain, Budget, Spent, Completion %, Health Status, Days Remaining, and Project Manager.
 
-The sample dataset includes:
-
-- Project Name
-- Domain
-- Budget
-- Actual Spend
-- Completion Percentage
-- Health Status
-- Days Remaining
-- Project Manager
-
----
-
-## Business Insights
-
-- Monitor project health across all departments.
-- Identify projects at risk.
-- Track budget utilization.
-- Compare budget against actual expenditure.
-- Measure project completion.
-- Analyze project distribution by domain.
-
----
+## Business Value
+This dashboard enables stakeholders to identify at-risk projects, monitor spending, track delivery progress, and make data-driven portfolio decisions.
 
 ## Repository Structure
-
 ```
 PowerBI-Agile-Project-Dashboard
-
-│── Agile Project Dashboard.pbix
-│── README.md
-
-├── Data
-│      Agile_Project_Data.xlsx
-
-├── Images
-│      Dashboard Overview.png
-
-├── Documentation
-│      Dashboard Documentation.pdf
-│      DAX Measures.pdf
+├── Agile_Project_Dashboard.pbix
+├── README.md
+├── Data/
+├── Images/
+└── Documentation/
+    ├── Dashboard_Documentation.pdf
+    └── DAX_Measures.md
 ```
 
----
-
 ## Future Enhancements
-
 - Drill-through pages
 - Gantt Chart
 - Forecasting
 - Resource Utilization Dashboard
 - Power BI Service Deployment
 
----
-
 ## Author
-
-Created by **Your Name**
+**Mehwish Shahzad**
