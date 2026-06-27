@@ -10,15 +10,14 @@ The **Agile Project Portfolio Dashboard** is an executive-level Power BI solutio
 
 ### Dashboard Overview
 
-![Dashboard Overview](Images/Dashboard_Overview.png)
-
+![Dashboard Overview](PowerBI-Agile-Project-Dashboard/Images/Dashboard_Overview.png)
 ### Executive KPIs
 
-![Executive KPIs](Images/Executive_KPIs.png)
+![Executive KPIs](PowerBI-Agile-Project-Dashboard/Images/Executive_KPIs.png)
 
 ### Budget Analysis
 
-![Budget Analysis](Images/Budget_Analysis.png)
+![Budget Analysis](PowerBI-Agile-Project-Dashboard/Images/Budget_Analysis.png)
 
 ### Project Health
 
